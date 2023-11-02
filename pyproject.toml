@@ -1,0 +1,12 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "RBerga06", email = "78449715+RBerga06@users.noreply.github.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "AGPL"}
+
