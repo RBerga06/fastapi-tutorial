@@ -1,12 +1,21 @@
 [project]
-name = ""
-version = ""
-description = ""
+name = "fastapi-tutorial"
+version = "1.0.0"
+description = "FastAPI Tutorial"
 authors = [
     {name = "RBerga06", email = "78449715+RBerga06@users.noreply.github.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi[all]>=0.104.1",
+]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "AGPL"}
 
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm.build]
+package-dir = "src"
+includes = ["src/"]
